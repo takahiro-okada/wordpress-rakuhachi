@@ -1,0 +1,19 @@
+08/29/20 7:37:35: style.scss - parse error: failed at `margin-top: ;` /Users/user/Local Sites/okadatax/app/public/wp-content/themes/okada-tax/scss/./page/_single-news.scss on line 5
+09/09/20 11:49:17: /Users/user/Local Sites/develope/app/public/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+09/24/20 7:21:41: /home/mu0001/minority-united.net/public_html/sannana-8/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+09/24/20 7:21:43: /home/mu0001/minority-united.net/public_html/sannana-8/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+09/30/20 12:02:20: style.scss - parse error: failed at `.swpm-username-input.swpm-password-input` /Users/user/Local Sites/develope/app/public/wp-content/themes/hachinokai[rakuhachi]/scss/./page/_swpm.scss on line 17
+09/30/20 12:04:21: style.scss - parse error: failed at `text` /Users/user/Local Sites/develope/app/public/wp-content/themes/hachinokai[rakuhachi]/scss/./page/_swpm.scss on line 23
+09/30/20 12:46:50: style.scss - parse error: failed at `margin` /Users/user/Local Sites/develope/app/public/wp-content/themes/hachinokai[rakuhachi]/scss/./page/_swpm.scss on line 60
+10/11/20 2:37:13: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:13: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:23: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:25: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:25: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:25: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/11/20 2:37:34: /home/hachinokai-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/12/20 11:57:56: /home/rakuhachi-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/12/20 11:57:58: /home/rakuhachi-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/12/20 11:58:03: /home/rakuhachi-event/www/event/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+10/13/20 12:18:40: style.scss - parse error: failed at `&:` /Users/user/Local Sites/develope/app/public/wp-content/themes/hachinokai[rakuhachi]/scss/./page/_index.scss on line 271
+10/13/20 12:19:40: style.scss - parse error: failed at `&:` /Users/user/Local Sites/develope/app/public/wp-content/themes/hachinokai[rakuhachi]/scss/./page/_index.scss on line 271

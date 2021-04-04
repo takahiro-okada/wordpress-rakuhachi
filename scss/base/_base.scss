@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// ブレイクポイント
+$breakpoints: (
+  "sp": "(max-width: 1279px)",
+  "pc": "(min-width: 1280px)",
+);
+
+// メディアクエリー
+@mixin mq($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+$font-color: #595757;
+$primary-color: #ed931d;
+$back-ground-black-color: #fef5e3;
+$line-height-base: 1.6;
+
+/* ==================================================================================
+# 共通
+================================================================================== */
+body {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic,
+    "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+  line-height: $line-height-base;
+  color: $font-color;
+  background-color: $back-ground-black-color;
+}
+@include mq("pc") {
+  .is-pc {
+    display: none;
+  }
+}
+
+@include mq("sp") {
+  .is-sp {
+    display: none;
+  }
+}

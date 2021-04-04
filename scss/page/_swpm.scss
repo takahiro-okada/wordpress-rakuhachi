@@ -1,0 +1,113 @@
+// ログインページ /login
+.swpm_title {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.use-icon {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+}
+.swpm-username-input,
+.swpm-password-input {
+  text-align: center;
+  margin-top: 20px;
+}
+.swpm-forgot-pass-link {
+  text-align: center;
+  a {
+    color: $primary-color;
+  }
+}
+.swpm-no-account {
+  margin-top: 20px;
+  padding: 20px 30px;
+  text-align: center;
+  border-top: 1px solid black;
+  width: 100%;
+}
+.login__button {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.login__button-link{
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 10px 80px !important;
+  font-weight: 700;
+  transition: all 300ms;
+  &:hover {
+    background-color: #fff;
+    color: $primary-color;
+    outline: 1px solid $primary-color;
+  }
+  @include mq("sp") {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+.swpm-apply {
+  text-align: center;
+}
+.swpm-apply__link {
+  color: $primary-color;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  border: 1px solid #000;
+  @include mq('sp'){
+  max-width:100%;
+  }
+}
+// リセットページ
+.swpm-pw-reset-email {
+  text-align: center;
+}
+.swpm-pw-reset-email-input {
+  text-align: center;
+}
+.swpm-pw-reset-submit-button {
+  text-align: center;
+}
+
+// 登録画面
+.swpm-registration-widget-form {
+  width: 50%;
+  margin: 0 auto;
+  @include mq("sp") {
+    width: 80%;
+  }
+}
+input[type="submit"] {
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: all 300ms;
+  &:hover {
+    background-color: #fff;
+    color: $primary-color;
+    outline: 1px solid $primary-color;
+  }
+  @include mq("sp") {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
